@@ -11,6 +11,7 @@ Saulius334 Project
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://saulius334.github.io/9-comingsoon-inclass/
+
 Design: https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 
 ## Project features
