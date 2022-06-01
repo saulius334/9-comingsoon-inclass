@@ -35,3 +35,34 @@ width: 60px;
 .hero > .description {
 font-size: 20px;
 }
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left-column {
+width: 50%;
+}
+.right-column {
+width: 40%;
+}
+.section-title {
+font-size: 20px;
+text-transform: uppercase;
+}
+.section-description {
+ font-size: 18px;
+ color: #777;
+}
+.section-description > a {
+    color: red;
+    text-decoration: none;
+   }
+   .section-description > a:hover {
+    text-decoration: underline;
+   }
