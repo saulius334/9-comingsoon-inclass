@@ -9,6 +9,13 @@
 @import "../css/components/mouse.css";
 @import "../css/components/progress-bar.css";
 
+section.bg-main {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 .hero {
     display: flex;
     flex-direction: column;
