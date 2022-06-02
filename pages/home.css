@@ -38,15 +38,14 @@ font-size: 20px;
 
 .main-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .column {
     display: flex;
     flex-direction: column;
     gap: 30px;
-}
-.left-column {
-width: 50%;
+    width: 50%;
 }
 .right-column {
 width: 40%;
@@ -65,4 +64,53 @@ text-transform: uppercase;
    }
    .section-description > a:hover {
     text-decoration: underline;
+   }
+   footer.container {
+       padding-top: 0;
+   }
+   footer > .row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+   }
+   .footer-bottom {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       color: #fffa;
+       font-size: 18px;
+       line-height: 26px;
+       align-items: center;
+   }
+   .footer-bottom > .logo {
+       height: 40px;
+       width: 160px;
+       margin: 40px 0;
+   }
+   .footer-bottom > .futeriukai {
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+   }
+   .footer-bottom a {
+       color: #fff;
+   }
+   .futeriukai > * {
+       position: relative;
+   }
+   .futeriukai > *::after {
+       display: inline-block;
+    content: '';
+    border-left: 1px solid white;
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+   }
+   .futeriukai > *:last-child::after {
+    display: none;
    }
