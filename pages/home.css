@@ -96,3 +96,21 @@ text-transform: uppercase;
    .footer-bottom a {
        color: #fff;
    }
+   .futeriukai > * {
+       position: relative;
+   }
+   .futeriukai > *::after {
+       display: inline-block;
+    content: '';
+    border-left: 1px solid white;
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+   }
+   .futeriukai > *:last-child::after {
+    display: none;
+   }
