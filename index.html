@@ -44,9 +44,11 @@
                         <div class="label">seconds</div>
                     </div>
                 </div>
-            <form action="">
-                subscribe
-            </form>
+                <form class="form subscribe">
+                    <input id="email" type="email" placeholder="Email" required>
+                    <label for="message">Message</label>
+                    <button type="submit" class="btn">Send message</button>
+                </form>
 
 
 
@@ -103,8 +105,14 @@
                 Quasi ducimus doloribus, <a href="#">tempore</a> non dolorum omnis sint,
                 sequi asperiores dolorem optio repellendus voluptate dicta
                 natus nostrum tenetur,expedita accusantium nam voluptatibus!</p>
-                    <form>
-                        MESSAGE FORM
+                    <form class="form">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="Name" required>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="Email" required>
+                        <label for="message">Message</label>
+                        <textarea  id="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Send message</button>
                     </form>
             </div>
         </div>
