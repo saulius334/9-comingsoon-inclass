@@ -135,3 +135,9 @@ text-transform: uppercase;
    .futeriukai > *:last-child::after {
     display: none;
    }
+   .back-to-top {
+       position: fixed;
+       bottom: 30px ;
+       right: 30px ;
+
+   }

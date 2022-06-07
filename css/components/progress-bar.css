@@ -1,0 +1,41 @@
+.progress-bar {
+    --bar-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 100%;
+}
+.topas {
+    display: flex;
+    justify-content: space-between;
+}
+.label {
+
+}
+.value {
+
+}
+.bottom {
+background-color: #ccc;
+height: 6px;
+border-radius: 99px;
+overflow: hidden;
+}
+.bar {
+    width: 90%;
+    height:100%;
+}
+.bar > .loader {
+    width: 100%;
+    background-color: var(--main-color);
+    height:100%;
+    animation: loading 2s;
+}
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width:100%;
+    }
+}
